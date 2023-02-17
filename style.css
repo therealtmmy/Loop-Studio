@@ -1,0 +1,267 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Immersive-head {
+    height: 100vh;
+    background: url(/images/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40em;
+    padding-top: 40px;
+}
+
+.nav-link {
+   word-spacing: 20px;
+}
+
+.nav-link > a:hover {
+    border-bottom: 1px solid pink;
+}
+
+.Immersive-flex-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: -33em;
+}
+
+.Immersive-Content-Text {
+    width: 40em;
+    height: 18em;
+    border: 1px solid white;
+    
+}
+
+.Immersive-Text {
+    color: white;
+    font-size: 75px;
+    padding: 40px;
+    line-height: 70px;
+}
+
+/* Leader In Interactive VR */
+
+.interactive-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.interactive-image {
+    width: 45em;
+    height: 30em;
+    object-fit: cover;
+}
+
+.interactive-leader-section {
+    width: 30em;
+    height: 13.5em;
+    background-color: white;
+    margin-top: 9.4em;
+    margin-left: -10em;
+    padding: 7em 1em 0em 6em;
+} 
+
+.interactive-leader-head {
+    font-size: 50px;
+    line-height: 49px;
+    padding-bottom: 0.3em;
+}
+
+.interactive-leader-text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.Creation-tab {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  justify-content: center;
+  gap: 47em;
+}
+
+.Creation-head {
+    font-size: 35px;
+}
+
+.Creation-button {
+    width: 9em;
+    height: 2.5em;
+    color: black;
+    background: white;
+    outline: 1px solid black;
+    border: none;
+}
+
+.Creation-button:hover {
+    color: white;
+    background-color: black;
+}
+
+.flex-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 5em 4em 0em 4em;
+}
+
+.tab, .tab-one, .tab-two, .tab-three, .tab-four, .tab-five, .tab-six, .tab-seven, .tab-eight {
+    width: 15em;
+    height: 25em;
+}
+
+.tab-one {
+    background: url(/images/image-deep-earth.jpg);
+    object-fit: cover;
+}
+
+.tab-one > p {
+    color: white;
+    font-size: 25px;
+    width: 4em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+.tab-two > p {
+    color: white;
+    font-size: 25px;
+    width: 4em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+.tab-three > p {
+    color: white;
+    font-size: 25px;
+    width: 6em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+.tab-four > p {
+    color: white;
+    font-size: 25px;
+    width: 4em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+.tab-five > p {
+    color: white;
+    font-size: 25px;
+    width: 6em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+.tab-six > p {
+    color: white;
+    font-size: 25px;
+    width: 4em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+.tab-seven > p {
+    color: white;
+    font-size: 25px;
+    width: 4em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+
+.tab-eight > p {
+    color: white;
+    font-size: 25px;
+    width: 6em;
+    line-height: 26px;
+    padding: 12.7em 0em 1em 1.3em;
+}
+
+.tab-two {
+    background: url(/images/image-night-arcade.jpg);
+}
+
+.tab-three {
+    background: url(/images/image-soccer-team.jpg);
+}
+
+.tab-four {
+    background: url(/images/image-grid.jpg);
+}
+
+.tab-five {
+    background: url(/images/image-from-above.jpg);
+}
+
+.tab-six {
+    background: url(/images/image-pocket-borealis.jpg);
+}
+
+.tab-seven {
+    background: url(/images/image-curiosity.jpg);
+}
+
+.tab-eight {
+    background: url(/images/image-fisheye.jpg);
+}
+
+
+.footer {
+    height: 10em;
+    background: black;
+    margin-top: 10em;
+    color: white;
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 58em;
+    padding-top: 3em;
+}
+
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.second-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36.5em;
+    padding-top: 30px;
+}
+
+.footer-nav {
+    word-spacing: 20px;
+}
+
