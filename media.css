@@ -1,0 +1,280 @@
+@media screen and (max-width: 600px) { 
+body {
+    overflow-x: hidden;
+}
+    .nav-bar {
+        /* gap: 2em;
+        padding-top: 10px; */
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+
+
+    .head-background {
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 0%;
+        width: 100%;
+    }
+
+
+    .nav-link {
+       position: fixed;
+       width: 100%;
+       height: 40vh;
+       top: 120px;
+      display: block;
+       text-align: center;
+       font-size: 20px;
+       line-height: 40px;
+       word-spacing: 300px;
+       background: rgba(0, 0, 0, 0.9);
+       padding-top: 20px;
+       transition: all .5s;
+       visibility: hidden;
+
+    }
+
+   .nav-link.overlay{
+        visibility: visible;
+        left: 100%;
+      }
+      
+
+    #icon {
+        display: inline;
+   float: right;
+   margin-top: -50px;
+   margin-right: 30px;
+   cursor: pointer;
+    }
+
+
+    .Immersive-head {
+        height: 100vh;
+        background: url(/mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-logo {
+        width: 7em;
+        height: 4em;
+        object-fit: contain;
+    }
+
+    .Immersive-flex-div {
+        margin-left: 0em;
+    }
+
+    .Immersive-Content-Text {
+        width: 17em;
+        height: 11em;
+        border: 1px solid white;
+        
+    }
+    
+    .Immersive-Text {
+        color: white;
+        font-size: 34px;
+        padding: 20px 20px 10px 20px;
+        line-height: 35px;
+    }
+
+    
+/* Leader In Interactive VR */
+
+.interactive-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0em;
+    height: 100vh;
+}
+
+.interactive-image {
+    width: 17em;
+    height: 25em;
+    object-fit: contain;
+}
+
+.interactive-leader-section {
+  all: unset;
+  margin-top: -4em;
+} 
+
+.interactive-leader-head {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 0em;
+    text-align: center;
+
+}
+
+.interactive-leader-text {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 25px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.Creation-tab {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .Creation-head {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.tab, .tab-one, .tab-two, .tab-three, .tab-four, .tab-five, .tab-six, .tab-seven, .tab-eight {
+    width: 16.5em;
+    height: 6em;
+}
+
+.flex-boxes {
+    gap: 15px;
+    padding: 5em 4em 0em 4em;
+}
+
+.tab-one {
+    background: url(/mobile/image-deep-earth.jpg);
+    background-size: cover;
+}
+
+.tab-two {
+    background: url(/mobile/image-night-arcade.jpg);
+    background-size: cover;
+}
+
+.tab-three {
+    background: url(/mobile/image-soccer-team.jpg);
+    background-size: cover;
+}
+
+.tab-four {
+    background: url(/mobile/image-grid.jpg);
+    background-size: cover;
+}
+
+.tab-five {
+    background: url(/mobile/image-from-above.jpg);
+    background-size: cover;
+}
+
+.tab-six {
+    background: url(/mobile/image-pocket-borealis.jpg);
+    background-size: cover;
+}
+
+.tab-seven {
+    background: url(/mobile/image-curiosity.jpg);
+    background-size: cover;
+}
+
+.tab-eight {
+    background: url(/mobile/image-fisheye.jpg);
+    background-size: cover;
+}
+
+.tab-one > p {
+    font-size: 20px;
+    width: 4em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+.tab-two > p {
+    font-size: 20px;
+    width: 4em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+.tab-three > p {
+    font-size: 20px;
+    width: 4.5em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+.tab-four > p {
+    font-size: 20px;
+    width: 4em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+.tab-five > p {
+    font-size: 20px;
+    width: 6em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+.tab-six > p {
+    font-size: 20px;
+    width: 4em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+.tab-seven > p {
+    font-size: 20px;
+    width: 4em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+
+.tab-eight > p {
+    font-size: 20px;
+    width: 6em;
+    line-height: 20px;
+    padding: 2em 0em 2em 1em;
+}
+
+
+.footer {
+    height: 29em;
+    margin-top: 4em;
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 4em;
+}
+
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.second-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3em;
+    padding-top: 30px;
+}
+
+.footer-nav {
+    width: 5em;
+    word-spacing: 20px;
+    line-height: 30px;
+}
+}
+
