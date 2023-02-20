@@ -33,10 +33,6 @@ a {
  display: none;
 }
 
-#check {
-    display: none;
-}
-
 .nav-link > a:hover {
     border-bottom: 1px solid pink;
 }
@@ -266,7 +262,7 @@ i {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 36.5em;
+    gap: 41.5em;
     padding-top: 30px;
 }
 
@@ -278,3 +274,4 @@ i {
     color: white;
     font-size: 30px;
 }
+
