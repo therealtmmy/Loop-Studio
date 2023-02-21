@@ -1,17 +1,16 @@
 @media screen and (max-width: 600px) { 
 body {
     overflow-x: hidden;
+    
 }
     .nav-bar {
-        /* gap: 2em;
-        padding-top: 10px; */
         padding-left: 30px;
         padding-top: 15px;
     }
 
 
     .head-background {
-        background: rgba(0, 0, 0, 0.9);
+        background: rgb(0, 0, 0);
         position: fixed;
         top: 0%;
         width: 100%;
@@ -21,7 +20,7 @@ body {
     .nav-link {
        position: fixed;
        width: 100%;
-       height: 40vh;
+       height: 100vh;
        top: 120px;
       display: block;
        text-align: center;
@@ -29,7 +28,7 @@ body {
        font-size: 20px;
        line-height: 40px;
        word-spacing: 300px;
-       background: rgba(0, 0, 0, 0.9);
+       background: rgb(0, 0, 0);
        padding-top: 20px;
        transition: all .5s;
     }
